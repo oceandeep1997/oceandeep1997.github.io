@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "new:post": "node scripts/new-post.mjs"
   },
   "dependencies": {
     "classnames": "^2.5.1",
